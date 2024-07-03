@@ -1,0 +1,607 @@
+@import "variables";
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    //text-transform: uppercase;
+}
+
+b {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-box {
+    border: 3px solid #2222;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2222;
+    padding: 20px;
+    width: auto;
+}
+
+.img-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-login img {
+    width: 150px;
+    height: 150px;
+}
+
+.img-login-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-login-banner img {
+    width: 500px;
+    height: 500px;
+
+}
+.input-wrapper {
+    position: relative;
+}
+
+.input-field {
+    padding-right: 30px;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.fixed-side {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    overflow: hidden;
+}
+
+.scrollable-side {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    margin-left: 600px;
+}
+
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.logo-nav {
+    width: 50%;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-nav {
+    margin-left: auto;
+    /* Alinea la lista a la derecha */
+}
+
+.capsula {
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 15px;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.banner-inicio img {
+    //width: 700px;
+    height: auto;
+    // border-radius: 15px;
+    //padding-right: 50px;
+}
+
+.background-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+}
+
+.background-section-1 {
+    background-color: $primary;
+    color: white;
+    padding-top: 50px;
+}
+
+.background-section-2 {
+    top: 100%;
+}
+
+.content-container-home {
+    padding: 35px;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 18px 18px 10px rgba(0, 0, 0, 0.1);
+    margin: 210px auto;
+    max-height: calc(80vh - auto);
+    overflow-y: auto;
+    margin-bottom: 4rem;
+    /* Agrega un margen inferior de 5 rem */
+
+}
+
+.content-container {
+    padding: 35px;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 18px 18px 10px rgba(0, 0, 0, 0.1);
+    margin: 110px auto;
+    max-height: calc(80vh - auto);
+    overflow-y: auto;
+    margin-bottom: 4rem;
+    /* Agrega un margen inferior de 5 rem */
+
+}
+
+.li-home {
+    background-color: #f0f0f0;
+    /* Color de fondo gris */
+    padding: 20px;
+    /* Espaciado interior */
+    margin-bottom: 10px;
+    /* Margen inferior */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    position: relative;
+    /* Posición relativa para poder posicionar el icono */
+}
+
+.li-home a {
+    color: #000;
+    /* Color del texto */
+    text-decoration: none;
+    /* Quitar subrayado del enlace */
+    display: flex;
+    /* Usa el modelo de caja flexible */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+}
+
+.li-home::after {
+    position: absolute;
+    /* Posición absoluta para posicionar el icono */
+    right: 10px;
+    /* Espacio desde el borde derecho */
+    top: 50%;
+    /* Centra verticalmente */
+    transform: translateY(-50%);
+    /* Ajusta verticalmente */
+}
+
+.li-home i {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    /* Tamaño del ícono */
+    align-items: center;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+}
+
+.link-container a {
+    flex: 1;
+    /* Asegura que el enlace ocupe todo el espacio restante */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.table th {
+    text-align: center;
+    background-color: #E9EEFC;
+    color: $black;
+    height: 50px;
+}
+
+.table td {
+    text-align: center;
+}
+
+.btn-ver {
+    background-color: #E9EEFC;
+}
+
+.btn-ver i {
+    font-size: 1.5em;
+    /* Tamaño del ícono */
+
+}
+
+.carousel-item img {
+    width: 400px;
+    margin-left: 37%;
+    padding-bottom: 50px;
+
+}
+
+label {
+    font-weight: 600;
+}
+
+.card-body i {
+    font-size: 2em;
+    /* Puedes ajustar el tamaño según tus necesidades */
+}
+
+.blue-section {
+    background-color: #2358DE;
+    color: white;
+    padding: 70px 0;
+    text-align: center;
+}
+
+
+.blue-section h2 {
+    font-size: 2em;
+    /* Tamaño del título */
+    text-align: center;
+    /* Otros estilos del título si es necesario */
+}
+
+.blue-section p {
+    font-size: 1.2em;
+    /* Tamaño del texto */
+    text-align: center;
+    /* Otros estilos del texto si es necesario */
+}
+
+.caja {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.green-section {
+    background-color: #6b6c6c02;
+    padding: 20px;
+}
+
+.icono {
+    // position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 54px;
+    color: #3a3a3aa4;
+
+}
+
+img .balanza {
+    // position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+}
+.contenido {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.herramientas .row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.herramientas .col-12 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.herramientas .caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.herramientas .icono {
+    margin-bottom: 15px;
+}
+
+.herramientas .contenido {
+    flex-grow: 1;
+}
+
+.herramientas .contenido h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.herramientas .contenido p {
+    font-size: 14px;
+}
+
+.herramientas .contenido a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.herramientas .contenido a:hover {
+    text-decoration: underline;
+}
+
+.herramientas .blueicons {
+    width: 120px;
+    height: auto;
+}
+
+// home
+
+.uelcon {
+    font-size: 25px;
+    color: #007bff;
+
+}
+
+.uelcon-h1 {
+    font-size: 40px;
+}
+
+.btn-primary,
+.btn-secondary {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.container-fluid {
+    padding: 10px; /* Ajusta el espaciado según sea necesario */
+}
+
+.row {
+    justify-content: center; /* Centra los elementos dentro de la fila */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.col {
+    flex: 0 0 auto; /* Permite que las columnas se ajusten automáticamente */
+    margin: 10px; /* Ajusta el espaciado horizontal entre las columnas */
+    max-width: 200px; /* Ajusta el ancho máximo de las columnas si es necesario */
+}
+
+.icon {
+    width: 120px; /* Ajusta el tamaño según sea necesario */
+    height: 120px; /* Mantén la relación de aspecto */
+    max-width: 100%; /* Asegura que no exceda el contenedor */
+    max-height: 100%; /* Asegura que no exceda el contenedor */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.textos-icons {
+    margin-bottom: 60px; /* Remueve el margen superior e inferior del texto */
+    font-weight: 500;
+    font-size: 18px;
+}
+.impulsando{
+    width: 260px;
+    padding: auto;
+    margin-bottom: 20px;
+}
+.text-center {
+    text-align: center; /* Centra el contenido del texto */
+}
+.logo-nav {
+    height: 40px;
+    /* Ajusta la altura del logo según sea necesario */
+}
+.navbar-toggler {
+    border: none;
+    background: none;
+}
+.navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #33333300;
+    /* Cambia el color del icono según tu preferencia */
+}
+
+
+/* Media query para pantallas pequeñas */
+
+@media (max-width: 370px) {}
+
+@media (max-width: 768px) {
+    .content-container-home {
+        width: 80%;
+        /* Reducir el ancho del contenedor principal */
+        margin: 100px auto;
+        /* Ajustar el margen superior e inferior */
+        padding: 20px;
+        /* Reducir el espacio interno */
+    }
+    .carousel-item img{
+        width: 300px;
+        height: 300px;
+    }
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+    }
+
+    .uelcon-h1 {
+        font-size: 40px;
+    }
+
+    .content-container {
+        width: 100%;
+        /* Reducir el ancho del contenedor principal */
+        margin: 100px auto;
+        /* Ajustar el margen superior e inferior */
+        padding: 20px;
+        /* Reducir el espacio interno */
+    }
+
+    .col-4 {
+        width: 100%;
+        /* Hacer que las columnas ocupen el ancho completo en pantallas pequeñas */
+        margin-bottom: 20px;
+        /* Agregar espacio entre las columnas */
+    }
+
+    .col-3 {
+        width: 50%;
+        /* Hacer que las columnas ocupen el 33.33% del ancho en pantallas grandes */
+    }
+
+    .col-2 {
+        margin-top: 2px;
+        width: 50%;
+        /* Hacer que las columnas ocupen el 33.33% del ancho en pantallas grandes */
+    }
+
+    .fixed-container {
+        width: 90%;
+        /* Reducir el ancho del contenedor fijo */
+    }
+    .herramientas .caja {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .herramientas .icono {
+        margin-bottom: 10px;
+    }
+
+    .herramientas .contenido {
+        flex-grow: 1;
+    }
+
+    .herramientas .contenido h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .herramientas .contenido p {
+        font-size: 14px;
+    }
+
+    .herramientas .contenido a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .herramientas .contenido a:hover {
+        text-decoration: underline;
+    }
+
+    .herramientas .blueicons {
+        width: 80px;
+        height: auto;
+    }
+}
+
+/* Media query para pantallas medianas */
+@media (min-width: 768px) and (max-width: 992px) {
+    .content-container-home {
+        width: 80%;
+        /* Reducir el ancho del contenedor principal */
+    }
+
+    .col-4 {
+        width: 50%;
+        /* Hacer que las columnas ocupen el 50% del ancho en pantallas medianas */
+        margin-bottom: 25px;
+        /* Agregar espacio entre las columnas */
+    }
+}
+
+/* Media query para pantallas grandes */
+@media (min-width: 992px) {
+    .content-container-home {
+        width: 70%;
+        /* Reducir el ancho del contenedor principal */
+    }
+
+    .col-4 {
+        width: 33.33%;
+        /* Hacer que las columnas ocupen el 33.33% del ancho en pantallas grandes */
+    }
+}

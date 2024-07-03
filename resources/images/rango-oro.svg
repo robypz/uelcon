@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <g id="Barras">
+    <g>
+      <g>
+        <polygon points="162.65 112.8 157.14 150 99.98 93.04 142.84 50.34 200 107.29 162.65 112.8" fill="#2358de"/>
+        <polygon points="37.35 112.8 42.86 150 100.02 93.04 57.16 50.34 0 107.29 37.35 112.8" fill="#2358de"/>
+      </g>
+      <ellipse cx="100" cy="50.34" rx="50.51" ry="50.34" fill="#f9b300"/>
+    </g>
+  </g>
+</svg>
