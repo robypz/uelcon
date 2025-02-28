@@ -15,6 +15,9 @@
                         <a href="{{ route('register') }}">
                             <div class="btn btn-primary mt-2 w-100">Regístrate</div>
                         </a>
+                        <br>
+                        <small class=" mt-5 text-aling-center "> Impulsado por la Bolsa Descentralizada de Valores de
+                        Venezuela</small>
                     </div>
                 </div>
             </div>
@@ -368,20 +371,43 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-grid gap-2 d-md-flex justify-content-center m-5">
+                <!-- <div class="d-grid gap-2 d-md-flex justify-content-center m-5">
                     <button type="submit" style="width: 40%" class="btn btn-secondary w-100">Ver más</button>
-                </div>
+                </div> -->
             </div>
         </div>
         {{-- asegurar la educacion de tus hijos? --}}
         <section class="blue-section">
-            <div class="container" style="">
-                <img src="{{ Vite::asset('resources/images/impulsando.svg') }}" class="impulsando">
+            <div class="container">
+                <h2>¿Listo para asegurar la educación de tus hijos?</h2>
+                <p>Consigue de forma rápida y sencilla el apoyo financiero que necesitas.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-center">
                     <button type="submit" style="width: 40%" class="btn btn-secondary w-100">Regístrate</button>
                 </div>
             </div>
         </section>
+
+        <!-- Pie de página -->
+        <footer class="footer" style="background-color: #005ec3; color: #fff; padding: 20px 0; text-align: center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4" style="display: flex; flex-direction: column; justify-content: center;">
+                        <small>Impulsado por: <br> La Bolsa Descentralizada de Valores de Venezuela</small>
+                    </div>
+                    <div class="col-4" style="display: flex; justify-content: center; align-items: center;">
+                        <a class="navbar-brand" href="#">
+                            <img class="logo-nav" width="1400" height="1400"
+                                src="{{ Vite::asset('resources/images/bdve-logo-claro.png') }}" alt="Logo de la empresa">
+                        </a>
+                    </div>
+                    <div class="col-4" style="display: flex; flex-direction: column; justify-content: center;">
+                        <small>© 2025 Uelcon. Todos los derechos reservados.</small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
         {{-- modales --}}
 
         <!-- Modal -->

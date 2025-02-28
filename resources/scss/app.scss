@@ -478,7 +478,15 @@ img .balanza {
     /* Cambia el color del icono según tu preferencia */
 }
 
+.nav-item{
+    padding-left: 10px;
+    padding-top: 10px;
+}
 
+.nav-item .capsula{
+    padding: 14px;
+    padding-top: 10px;
+}
 /* Media query para pantallas pequeñas */
 
 @media (max-width: 370px) {}

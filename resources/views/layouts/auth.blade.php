@@ -38,7 +38,7 @@
                         <a class="nav-link" href="{{ route('register') }}">Regístrate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link bg-primary capsula p-2" href="{{ route('login') }}">Inicio de Sesión</a>
+                        <a class="nav-link bg-primary capsula" href="{{ route('login') }}">Inicio de Sesión</a>
                     </li>
                 </ul>
             </div>
