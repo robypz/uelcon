@@ -24,12 +24,6 @@
                             <div class="btn btn-primary mt-2 w-100">Regístrate</div>
                         </a>
                         <br>
-<<<<<<< HEAD
-                        <small class=" mt-5 text-aling-center ">Bolsa Descentralizada de Valores de
-                        Venezuela</small>
-=======
-
->>>>>>> 06bbd03993f7060a249b16b882682eb4a0ed87bb
                     </div>
                 </div>
             </div>
