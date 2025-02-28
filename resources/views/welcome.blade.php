@@ -6,6 +6,14 @@
             <div class="col-lg-6 col-md-12">
                 <div class=" p-md-2 mt-2 ">
                     <div class="container">
+                        <div class="row">
+                            <a href="#" class="col-12">
+                                <img height="50"
+                                    src="{{ Vite::asset('resources/images/bdve-logo-oscuro.png') }}" alt="Logo de la empresa">
+                            </a>
+                            <br>
+                            <small class="col-12 fs-5 my-3">Bolsa Descentralizada de Valores de Venezuela</small>
+                        </div>
                         <br>
                         <h1 class="uelcon-h1">Tú te esfuerzas, nosotros te apoyamos</h1>
                         <p class="lead">
@@ -16,8 +24,12 @@
                             <div class="btn btn-primary mt-2 w-100">Regístrate</div>
                         </a>
                         <br>
+<<<<<<< HEAD
                         <small class=" mt-5 text-aling-center ">Bolsa Descentralizada de Valores de
                         Venezuela</small>
+=======
+
+>>>>>>> 06bbd03993f7060a249b16b882682eb4a0ed87bb
                     </div>
                 </div>
             </div>
