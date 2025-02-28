@@ -102,15 +102,9 @@ Confiamos en ti
             <div class="container">
                 <div class="row">
                     <div class="col-4" style="display: flex; flex-direction: column; justify-content: center;">
-                        <small>Impulsado por: <br> La Bolsa Descentralizada de Valores de Venezuela</small>
+                        <small>Bolsa Descentralizada de Valores de Venezuela</small>
                     </div>
-                    <div class="col-4" style="display: flex; justify-content: center; align-items: center;">
-                        <a class="navbar-brand" href="#">
-                            <img class="logo-nav" width="1400" height="1400"
-                                src="{{ Vite::asset('resources/images/bdve-logo-claro.png') }}" alt="Logo de la empresa">
-                        </a>
-                    </div>
-                    <div class="col-4" style="display: flex; flex-direction: column; justify-content: center;">
+                                        <div class="col-4" style="display: flex; flex-direction: column; justify-content: center;">
                         <small>© 2025 Uelcon. Todos los derechos reservados.</small>
                     </div>
                 </div>

@@ -16,7 +16,7 @@
                             <div class="btn btn-primary mt-2 w-100">Regístrate</div>
                         </a>
                         <br>
-                        <small class=" mt-5 text-aling-center "> Impulsado por la Bolsa Descentralizada de Valores de
+                        <small class=" mt-5 text-aling-center ">Bolsa Descentralizada de Valores de
                         Venezuela</small>
                     </div>
                 </div>
